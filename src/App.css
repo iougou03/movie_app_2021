@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+.headerBox{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.headerBox img{
+    margin-left: 20px;
+    border-radius: 50%;
+}
+body{
+    background-color: #181818;
+}
+.headerText{
+    padding: 30px;
+    font-size: 50px;
+    color: white;
+}
+.loader {
+    text-align: center;
+    margin:30% auto;
+    color:white;
+}
